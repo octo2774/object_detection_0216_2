@@ -1,0 +1,24 @@
+오브젝트 트래킹
+오브젝트 디택션
+두가지 
+
+open cv
+
+성능개선을 위해 transfer learning
+
+
+명령프롬포트 (아나콘다 파워쉘 포름포트)
+
+-> cd 디렉토리 로 디렉토리 변경
+-> python img_show.py 로 바나나 그림 출력하는 프로그램 실행
+-> & python img_show.py 로 백그라운드에서 실행
+
+img_show.py - 바나나출력
+
+import cv2
+
+img = cv2.imread("039.png")
+
+cv2.imshow("Image", img)
+cv2.waitKey(0)
+
